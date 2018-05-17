@@ -64,13 +64,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pet.cs" />
     <Compile Include="Environment\HttpClient.cs" />
+    <Compile Include="Environment\ScenarioHttpClient.cs" />
+    <Compile Include="Features\GetPeopleTests.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GetPeopleTests.feature</DependentUpon>
+    </Compile>
+    <Compile Include="People.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PeopleRootObject.cs" />
+    <Compile Include="Steps\GetPeopleTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Features\GetPeopleTests.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GetPeopleTests.feature.cs</LastGenOutput>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
