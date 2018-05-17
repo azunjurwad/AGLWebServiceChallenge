@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AGLWebServiceTest", "AGLWebServiceTest\AGLWebServiceTest.csproj", "{75972EBF-63C1-4194-8A99-469941E6DD6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75972EBF-63C1-4194-8A99-469941E6DD6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75972EBF-63C1-4194-8A99-469941E6DD6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75972EBF-63C1-4194-8A99-469941E6DD6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75972EBF-63C1-4194-8A99-469941E6DD6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A3190EC-7A55-499C-8C2C-6FF563479148}
+	EndGlobalSection
+EndGlobal
