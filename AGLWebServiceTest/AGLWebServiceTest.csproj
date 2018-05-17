@@ -64,9 +64,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pet.cs" />
+    <Compile Include="Contracts\Pet.cs" />
     <Compile Include="Environment\HttpClient.cs" />
-    <Compile Include="Environment\ScenarioHttpClient.cs" />
     <Compile Include="Features\GetPeopleTests.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -74,7 +73,7 @@
     </Compile>
     <Compile Include="People.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PeopleRootObject.cs" />
+    <Compile Include="Contracts\PeopleRootObject.cs" />
     <Compile Include="Steps\GetPeopleTests.cs" />
   </ItemGroup>
   <ItemGroup>

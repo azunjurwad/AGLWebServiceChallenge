@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using AGLWebServiceTest.Contracts;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using TechTalk.SpecFlow;
 
@@ -10,17 +11,6 @@ namespace AGLWebServiceTest.Steps
         public static PeopleRootObject[] peopleObjects;
         public static List<string> PetsList = new List<string>();
         public static List<string> OwenersList = new List<string>();
-
-        ////[Given(@"I get all the cats from the web service")]
-        ////public void GivenIGetAllTheCatsFromTheWebService(Table apiTable)
-        ////{
-        ////    foreach (var row in apiTable.Rows)
-        ////    {
-        ////        var people = new People();
-        ////        var maleOwners = people.GetMaleOwnerList(row["ApiUrl"]);
-        ////        var femaleOwners = people.GetFemaleOwnerList(row["ApiUrl"]);
-        ////    }
-        ////}
 
         [Given(@"I get all owners and pets from the web service")]
         public void GivenIGetAllOwnersAndPetsFromTheWebService(Table apiTable)

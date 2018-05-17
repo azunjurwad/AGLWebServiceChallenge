@@ -1,12 +1,11 @@
 ﻿using Newtonsoft.Json;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace AGLWebServiceTest
+namespace AGLWebServiceTest.Contracts
 {
+    /// <summary>
+    /// Root object contract
+    /// </summary>
     public class PeopleRootObject
     {
         [JsonProperty(PropertyName = "name")]

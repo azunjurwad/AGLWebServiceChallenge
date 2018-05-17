@@ -1,7 +1,10 @@
 ﻿using Newtonsoft.Json;
 
-namespace AGLWebServiceTest
+namespace AGLWebServiceTest.Contracts
 {
+    /// <summary>
+    /// Pet object contract
+    /// </summary>
     public class Pet
     {
         [JsonProperty(PropertyName = "name")]
